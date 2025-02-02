@@ -25,3 +25,34 @@ npm install
 ### 3. Install Playwright Browsers
 
 npx playwright install
+
+### 4. Run Tests
+
+npx playwright test
+
+### 5. View Test Report
+
+npx playwright show-report
+
+## Selected Features & Justifications
+
+### 1. Authentication ✅
+Why?
+
+Essential for user engagement and personalization.
+A high-priority feature for any e-commerce site.
+Covers positive and negative test cases (valid, invalid inputs).
+Test Scenarios:
+
+Login with valid credentials.
+Login with incorrect credentials (expect error message).
+
+### 2. Log Out ✅
+Why?
+
+Ensures account security.
+Verifies proper session handling.
+Test Scenarios:
+
+Log out successfully.
+
